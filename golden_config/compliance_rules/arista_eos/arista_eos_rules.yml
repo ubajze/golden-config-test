@@ -1,6 +1,6 @@
 ---
 - feature_slug: "aaa"
-  platform_slug: "eos"
+  platform_slug: "arista_eos"
   config_ordered: false
   match_config: |
     tacacs-server
@@ -9,7 +9,7 @@
     no aaa root
   config_type: "CLI"
 - feature_slug: "snmp"
-  platform_slug: "eos"
+  platform_slug: "arista_eos"
   config_ordered: false
   match_config: "snmp-server"
   config_type: "CLI"
