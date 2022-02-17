@@ -7,7 +7,7 @@
     enable password
     aaa
     no aaa root
-  config_type: "CLI"
+  config_type: "cli"
 - feature_slug: "snmp"
   platform_slug: "arista_eos"
   config_ordered: false
