@@ -15,7 +15,7 @@
   config_type: "cli"
 - feature_slug: "banner"
   platform_slug: "arista_eos"
-  config_ordered: false
+  config_ordered: true
   match_config: |
     banner login
     **************************** W A R N I N G *****************************
