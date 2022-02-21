@@ -14,16 +14,17 @@
   match_config: "snmp-server"
   config_type: "cli"
 - feature_slug: "banner"
-  platform_slug: "arista_eos"
+  platform_slug: "arista-veos"
   config_ordered: true
   match_config: |
     banner login
-    **************************** W A R N I N G *****************************
-    * Access to this system is restricted to authorized users only. *
-    * All data residing on this system is the property of SAP. *
-    * All activities on this system may be monitored. *
-    * Unauthorized usage is prohibited and may attract penalties. *
-    * Violations will be prosecuted. *
+    ****************************  W A R N I N G  *****************************
+    Access to this system is restricted to authorized users only.      *
+    All data residing on this system is the property of SAP.           *
+    All activities on this system may be monitored.                    *
+    Unauthorized usage is prohibited and may attract penalties.        *
+    Violations will be prosecuted.                                     *
     **************************************************************************
         Device: $(hostname)
+    EOF
   config_type: "cli"
