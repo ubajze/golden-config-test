@@ -25,5 +25,5 @@
     * Unauthorized usage is prohibited and may attract penalties. *
     * Violations will be prosecuted. *
     **************************************************************************
-    Device: $(hostname)
+        Device: $(hostname)
   config_type: "cli"
