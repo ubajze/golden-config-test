@@ -26,5 +26,4 @@
     Violations will be prosecuted.                                     *
     **************************************************************************
         Device: $(hostname)
-    EOF
   config_type: "cli"
