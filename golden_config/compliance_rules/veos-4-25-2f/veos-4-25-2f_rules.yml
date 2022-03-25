@@ -1,6 +1,6 @@
 ---
 - feature_slug: "aaa"
-  platform_slug: "arista_eos"
+  platform_slug: "veos-4-25-2f"
   config_ordered: false
   match_config: |
     tacacs-server
@@ -9,12 +9,12 @@
     no aaa root
   config_type: "cli"
 - feature_slug: "snmp"
-  platform_slug: "arista_eos"
+  platform_slug: "veos-4-25-2f"
   config_ordered: false
   match_config: "snmp-server"
   config_type: "cli"
 - feature_slug: "banner"
-  platform_slug: "arista_eos"
+  platform_slug: "veos-4-25-2f"
   config_ordered: true
   match_config: |
     banner login
